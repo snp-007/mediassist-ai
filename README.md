@@ -17,6 +17,8 @@
   <b>Evidence-Based Healthcare Research Assistant using Retrieval-Augmented Generation (RAG)</b>
 </p>
 
+<a href="https://mediassist-ai-snp.streamlit.app/">Try the App</a>
+
 ---
 
 # 📌 Overview
