@@ -1,0 +1,15 @@
+chromadb
+sentence-transformers
+langchain
+langchain-community
+langchain-chroma
+pandas
+numpy
+requests
+python-dotenv
+jupyter
+ipykernel
+tqdm
+ollama
+groq
+streamlit
