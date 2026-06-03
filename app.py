@@ -25,6 +25,20 @@ vector_db = ChromaManager(
     collection_name="pubmed_articles_filtered"
 )
 
+import json
+
+if vector_db.count() == 0:
+
+    with open(
+        "data/pubmed_articles.json",
+        "r",
+        encoding="utf-8"
+    ) as f:
+
+        articles = json.load(f)
+
+    vector_db.add_documents(articles)
+
 rag = RAGPipeline()
 
 # ======================
